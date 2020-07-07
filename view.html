@@ -6,38 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hot Restaurant</title>
   <!--reset CSS -->
-  <link rel="stylesheet" href="assets/reset.css" />
-  <!--INSERT GOOGLE FONT SCRIPTS-->
-  <!--INSERT BOOTSRAP OR OTHER CDN -->
-
+  <link rel="stylesheet" href="assets/css/reset.css" />
+    <!--INSERT BOOTSRAP OR OTHER CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!--homebrewed CSS -->
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 
 <body>
-  <header>
-    <h1>Hot Restaurant</h1>
-    
-    <div class="jumbotron-fluid">
+
+   <!--fluid class to make it fill the page-->
+   <div class="jumbotron-fluid">
     <div class="container">
 
     <h1 class="display-4">Hot Restaurant</h1>
 
     <hr class="my-4">
-    <p>We only have 5 tables! Book your seat before they all are gone!</p>
+    <p>Current Reservations and Waiting List</p>
     <!--Note two buttons on one line-->
-    <a class="btn btn-primary btn-lg" href="../HotRestaurant/index.html" role="button">Home</a><a class="btn btn-danger btn-lg" href="../HotRestaurant/make.html" role="button">Make Reservation</a>
+    <a class="btn btn-danger btn-lg" href="../HotRestaurant/make.html" role="button">Make Reservation</a><a class="btn btn-primary btn-lg" href="../HotRestaurant/index.html" role="button">Home</a>
     </div>
   </div>
-  </header>
 
   <main id="main-content" class="container-fluid row">
+    <!--Sample reservation Data-->
     <section class="column">
-      
-  </main>
+    <ul class="table">
+      <li class="id">ID:</li>
+      <li class="name">Name:</li>
+      <li class="email">Email:</li>
+      <li class="phone">Phone:</li>
+    </ul>
+
+     
+    </section>
+
+
 
   <footer>
-    <h5>Site Credits</h5>
+    <!--Link to table api and link to wait list api-->
+      <a href="">API Table Link  ||</a><a href="#">  API Wait List</a>
   </footer>
 
   <!--HIDE SCRIPTS UNDER THE BODY (or at the end of the Body)-->
