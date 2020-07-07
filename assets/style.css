@@ -1,0 +1,8 @@
+/* formatting jumbotron items*/
+.container {
+    text-align: center;
+    margin: auto;
+}
+.btn-primary {
+    margin-right: 10px;
+}
