@@ -1,0 +1,25 @@
+{
+  "name": "HotRestaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rad-a/HotRestaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rad-a/HotRestaurant/issues"
+  },
+  "homepage": "https://github.com/rad-a/HotRestaurant#readme"
+}
